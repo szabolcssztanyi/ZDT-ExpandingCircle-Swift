@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E113995C1AC2B15500158D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113995B1AC2B15500158D32 /* AppDelegate.swift */; };
+		E11399631AC2B15500158D32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11399621AC2B15500158D32 /* Images.xcassets */; };
+		E11399661AC2B15500158D32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11399641AC2B15500158D32 /* LaunchScreen.xib */; };
+		E11399721AC2B15500158D32 /* ZDT_ExpandCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11399711AC2B15500158D32 /* ZDT_ExpandCircleTests.swift */; };
+		E113997C1AC2B17700158D32 /* california-city-fog-4360.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E113997B1AC2B17700158D32 /* california-city-fog-4360.jpeg */; };
+		E11399801AC2B19F00158D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E113997D1AC2B19F00158D32 /* Main.storyboard */; };
+		E11399811AC2B19F00158D32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113997E1AC2B19F00158D32 /* DetailViewController.swift */; };
+		E11399821AC2B19F00158D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113997F1AC2B19F00158D32 /* ViewController.swift */; };
+		E11399881AC2B1C700158D32 /* LoginTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11399851AC2B1C700158D32 /* LoginTransitionAnimator.swift */; };
+		E11399891AC2B1C700158D32 /* LoginTransitionAnimatorDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11399861AC2B1C700158D32 /* LoginTransitionAnimatorDismiss.swift */; };
+		E113998A1AC2B1C700158D32 /* LoginTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11399871AC2B1C700158D32 /* LoginTransitionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E113996C1AC2B15500158D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E113994E1AC2B15500158D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11399551AC2B15500158D32;
+			remoteInfo = ZDT_ExpandCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11399561AC2B15500158D32 /* ZDT_ExpandCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDT_ExpandCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113995A1AC2B15500158D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E113995B1AC2B15500158D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E11399621AC2B15500158D32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E11399651AC2B15500158D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E113996B1AC2B15500158D32 /* ZDT_ExpandCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDT_ExpandCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11399701AC2B15500158D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11399711AC2B15500158D32 /* ZDT_ExpandCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDT_ExpandCircleTests.swift; sourceTree = "<group>"; };
+		E113997B1AC2B17700158D32 /* california-city-fog-4360.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "california-city-fog-4360.jpeg"; sourceTree = "<group>"; };
+		E113997D1AC2B19F00158D32 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E113997E1AC2B19F00158D32 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E113997F1AC2B19F00158D32 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E11399851AC2B1C700158D32 /* LoginTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTransitionAnimator.swift; sourceTree = "<group>"; };
+		E11399861AC2B1C700158D32 /* LoginTransitionAnimatorDismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTransitionAnimatorDismiss.swift; sourceTree = "<group>"; };
+		E11399871AC2B1C700158D32 /* LoginTransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTransitionDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11399531AC2B15500158D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11399681AC2B15500158D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E113994D1AC2B15500158D32 = {
+			isa = PBXGroup;
+			children = (
+				E11399581AC2B15500158D32 /* ZDT_ExpandCircle */,
+				E113996E1AC2B15500158D32 /* ZDT_ExpandCircleTests */,
+				E11399571AC2B15500158D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11399571AC2B15500158D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11399561AC2B15500158D32 /* ZDT_ExpandCircle.app */,
+				E113996B1AC2B15500158D32 /* ZDT_ExpandCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11399581AC2B15500158D32 /* ZDT_ExpandCircle */ = {
+			isa = PBXGroup;
+			children = (
+				E113995B1AC2B15500158D32 /* AppDelegate.swift */,
+				E11399841AC2B1BA00158D32 /* Transition managers */,
+				E11399831AC2B1A200158D32 /* ViewControllers */,
+				E113997D1AC2B19F00158D32 /* Main.storyboard */,
+				E11399591AC2B15500158D32 /* Supporting Files */,
+			);
+			path = ZDT_ExpandCircle;
+			sourceTree = "<group>";
+		};
+		E11399591AC2B15500158D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11399641AC2B15500158D32 /* LaunchScreen.xib */,
+				E11399621AC2B15500158D32 /* Images.xcassets */,
+				E113997B1AC2B17700158D32 /* california-city-fog-4360.jpeg */,
+				E113995A1AC2B15500158D32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E113996E1AC2B15500158D32 /* ZDT_ExpandCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11399711AC2B15500158D32 /* ZDT_ExpandCircleTests.swift */,
+				E113996F1AC2B15500158D32 /* Supporting Files */,
+			);
+			path = ZDT_ExpandCircleTests;
+			sourceTree = "<group>";
+		};
+		E113996F1AC2B15500158D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11399701AC2B15500158D32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11399831AC2B1A200158D32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E113997E1AC2B19F00158D32 /* DetailViewController.swift */,
+				E113997F1AC2B19F00158D32 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E11399841AC2B1BA00158D32 /* Transition managers */ = {
+			isa = PBXGroup;
+			children = (
+				E11399851AC2B1C700158D32 /* LoginTransitionAnimator.swift */,
+				E11399861AC2B1C700158D32 /* LoginTransitionAnimatorDismiss.swift */,
+				E11399871AC2B1C700158D32 /* LoginTransitionDelegate.swift */,
+			);
+			name = "Transition managers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11399551AC2B15500158D32 /* ZDT_ExpandCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11399751AC2B15500158D32 /* Build configuration list for PBXNativeTarget "ZDT_ExpandCircle" */;
+			buildPhases = (
+				E11399521AC2B15500158D32 /* Sources */,
+				E11399531AC2B15500158D32 /* Frameworks */,
+				E11399541AC2B15500158D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDT_ExpandCircle;
+			productName = ZDT_ExpandCircle;
+			productReference = E11399561AC2B15500158D32 /* ZDT_ExpandCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E113996A1AC2B15500158D32 /* ZDT_ExpandCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11399781AC2B15500158D32 /* Build configuration list for PBXNativeTarget "ZDT_ExpandCircleTests" */;
+			buildPhases = (
+				E11399671AC2B15500158D32 /* Sources */,
+				E11399681AC2B15500158D32 /* Frameworks */,
+				E11399691AC2B15500158D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E113996D1AC2B15500158D32 /* PBXTargetDependency */,
+			);
+			name = ZDT_ExpandCircleTests;
+			productName = ZDT_ExpandCircleTests;
+			productReference = E113996B1AC2B15500158D32 /* ZDT_ExpandCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E113994E1AC2B15500158D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Szabolcs Sztanyi";
+				TargetAttributes = {
+					E11399551AC2B15500158D32 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E113996A1AC2B15500158D32 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E11399551AC2B15500158D32;
+					};
+				};
+			};
+			buildConfigurationList = E11399511AC2B15500158D32 /* Build configuration list for PBXProject "ZDT_ExpandCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E113994D1AC2B15500158D32;
+			productRefGroup = E11399571AC2B15500158D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11399551AC2B15500158D32 /* ZDT_ExpandCircle */,
+				E113996A1AC2B15500158D32 /* ZDT_ExpandCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11399541AC2B15500158D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11399661AC2B15500158D32 /* LaunchScreen.xib in Resources */,
+				E113997C1AC2B17700158D32 /* california-city-fog-4360.jpeg in Resources */,
+				E11399631AC2B15500158D32 /* Images.xcassets in Resources */,
+				E11399801AC2B19F00158D32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11399691AC2B15500158D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11399521AC2B15500158D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11399821AC2B19F00158D32 /* ViewController.swift in Sources */,
+				E113995C1AC2B15500158D32 /* AppDelegate.swift in Sources */,
+				E11399891AC2B1C700158D32 /* LoginTransitionAnimatorDismiss.swift in Sources */,
+				E113998A1AC2B1C700158D32 /* LoginTransitionDelegate.swift in Sources */,
+				E11399811AC2B19F00158D32 /* DetailViewController.swift in Sources */,
+				E11399881AC2B1C700158D32 /* LoginTransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11399671AC2B15500158D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11399721AC2B15500158D32 /* ZDT_ExpandCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E113996D1AC2B15500158D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11399551AC2B15500158D32 /* ZDT_ExpandCircle */;
+			targetProxy = E113996C1AC2B15500158D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11399641AC2B15500158D32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11399651AC2B15500158D32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11399731AC2B15500158D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E11399741AC2B15500158D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11399761AC2B15500158D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDT_ExpandCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11399771AC2B15500158D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDT_ExpandCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E11399791AC2B15500158D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDT_ExpandCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDT_ExpandCircle.app/ZDT_ExpandCircle";
+			};
+			name = Debug;
+		};
+		E113997A1AC2B15500158D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDT_ExpandCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDT_ExpandCircle.app/ZDT_ExpandCircle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11399511AC2B15500158D32 /* Build configuration list for PBXProject "ZDT_ExpandCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11399731AC2B15500158D32 /* Debug */,
+				E11399741AC2B15500158D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11399751AC2B15500158D32 /* Build configuration list for PBXNativeTarget "ZDT_ExpandCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11399761AC2B15500158D32 /* Debug */,
+				E11399771AC2B15500158D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E11399781AC2B15500158D32 /* Build configuration list for PBXNativeTarget "ZDT_ExpandCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11399791AC2B15500158D32 /* Debug */,
+				E113997A1AC2B15500158D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E113994E1AC2B15500158D32 /* Project object */;
+}
