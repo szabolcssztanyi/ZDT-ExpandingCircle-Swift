@@ -10,15 +10,14 @@ import UIKit
 
 class LoginTransitionAnimatorDismiss: NSObject, UIViewControllerAnimatedTransitioning {
 
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
+    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return 0.5
     }
     
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-        let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as DetailViewController
-        let destinationController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)! as ViewController
+        let destinationController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)! as! ViewController
         
-        let containerView = transitionContext.containerView() as UIView
+        let containerView = transitionContext.containerView()! as UIView
 
         destinationController.view.alpha = 0.0
         containerView.addSubview(destinationController.view)

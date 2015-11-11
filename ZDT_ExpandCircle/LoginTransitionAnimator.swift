@@ -12,7 +12,7 @@ class LoginTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
    
     var transitionContext: UIViewControllerContextTransitioning?
     
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
+    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return 0.5
     }
  
@@ -22,21 +22,21 @@ class LoginTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
         self.transitionContext = transitionContext
         
-        let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as ViewController
+        let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey) as! ViewController
         let destinationController: UIViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!
         let destinationView = destinationController.view
         
         let containerView = transitionContext.containerView()
         
-        containerView.addSubview(destinationController.view)
+        containerView!.addSubview(destinationController.view)
         
         let buttonFrame = fromViewController.button.frame
         let endFrame = CGRectMake(-CGRectGetWidth(destinationView.frame)/2, -CGRectGetHeight(destinationView.frame)/2, CGRectGetWidth(destinationView.frame)*2, CGRectGetHeight(destinationView.frame)*2)
         
-        containerView.addSubview(fromViewController.view)
-        containerView.addSubview(destinationView)
+        containerView!.addSubview(fromViewController.view)
+        containerView!.addSubview(destinationView)
         
-        var maskPath = UIBezierPath(ovalInRect: buttonFrame)
+        let maskPath = UIBezierPath(ovalInRect: buttonFrame)
         
         let maskLayer = CAShapeLayer()
         maskLayer.frame = destinationView.frame
@@ -54,7 +54,7 @@ class LoginTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         maskLayer.addAnimation(pathAnimation, forKey: "pathAnimation")
     }
     
-    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         if let transitionContext = self.transitionContext {
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
         }
